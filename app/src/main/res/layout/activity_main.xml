@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.40" />
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/tv_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Deny Iqbal Mubarok"
@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@id/iv_rick" />
 
     <TextView
-        android:id="@+id/university"
+        android:id="@+id/tv_university"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Universitas Ahmad Dahlan"
@@ -40,6 +40,6 @@
         android:layout_margin="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/name" />
+        app:layout_constraintTop_toBottomOf="@id/tv_name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
